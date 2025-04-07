@@ -131,7 +131,8 @@ $graph:
         "_id": "@type"
         "_type": "@vocab"
     bbox:
-      type: double[][]
+      type: array
+      items: double
       doc: "Spatial extents"
 
 - name: Temporal
@@ -145,7 +146,8 @@ $graph:
         "_id": "@type"
         "_type": "@vocab"
     interval:
-      type: string[][]
+      type: array
+      items: string
       doc: "Temporal extents"
 
 - name: Extents
