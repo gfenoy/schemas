@@ -297,7 +297,7 @@ $graph:
       doc: |
         "A human-readable title describing the Item."
     description:
-      type: string {
+      type: string
       "title": "Item Description"
       doc: |
         "Detailed multi-line description to fully explain the Item."
